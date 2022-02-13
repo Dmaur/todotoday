@@ -1,0 +1,36 @@
+#body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(90, 39, 3);
+    font-family: "Supermercado One";
+}
+#userInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.title {
+    color:darkslategrey;
+    background-color: darkorange;
+    width: 300px;
+    font-size: 45px;
+    padding: 15px;
+    border-color: darkslategray;
+    border-radius: 25px;
+}
+.input {
+    font-size: 30px;
+    width: 235px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+}
+.button {
+    height: 40px;
+    background-color: silver;
+    color: #000000;
+
+}
+
+    
