@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Supermercado+One#standard-styles">
     <script src="todo.js"></script>
     <link rel="stylesheet" href="todo.css"></link> 
     <meta charset="UTF-8">
@@ -12,11 +11,15 @@
 <body id="body">
     <h1 class="title">To Do To Day</h1>
     <div id="userInput">
-        <input type="text" placeholder="add items here" class="input">
-        <button type="submit" class="button">Add Todo!</button>
+        <input type="text" placeholder="add items here" id="input"/>
+        <input type="button" onclick="addstuff()" value="butts" type="submit" id="button"/>
+        
     </div>
-    <div class="list">
+    <div id="list">
         <h3 class="listtitle">Get'er done</h3>
+        <ul id ="listitems"></ul>
+        
     </div>
+   
 </body>
 </html>
